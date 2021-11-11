@@ -5,20 +5,22 @@
     <RootNamespace>VCDiff</RootNamespace>
     <TargetFrameworks>netstandard2.1;netcoreapp3.1;net5.0</TargetFrameworks>
     <Nullable>enable</Nullable>
-    <Version>3.3.2</Version>
+    <Version>3.4.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Authors>Metric;chyyran;Snowflake Authors</Authors>
+    <Authors>Metric;chyyran;Sewer56</Authors>
     <PackageTags>diff;difference;patch;sdch;compare;delta;vcdiff;bsdiff</PackageTags>
-    <RepositoryUrl>https://github.com/SnowflakePowered/vcdiff</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Sewer56/vcdiff</RepositoryUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <Title>vcdiff</Title>
-    <Description>A fast, pure C# implementation of the VCDIFF algorithm.</Description>
+    <Description>Personal fork with further speed optimisations of a fast, pure C# implementation of the VCDIFF algorithm.</Description>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageId>Sewer56.$(AssemblyName)</PackageId>
+    <PackageProjectUrl>https://github.com/Sewer56/vcdiff</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" Version="2.1.3" />
